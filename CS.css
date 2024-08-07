@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #A91D3A;
+    --sec-color: #151515;
+    --thrd-color: #EEEEEE;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--sec-color);
+    color: var(--thrd-color);
+    font-family: "Inter", sans-serif;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TS {
+    text-shadow: 1px 1px 84px var(--thrd-color);
+}
+
+.CS {
+    color: var(--primary-color);
+
+}
+
+.hero {
+    padding-top: 5em;
+    flex-direction: column;
+}
+
+.company-name {
+    padding: .3em;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.cont p {
+    padding-bottom: 1em;
+}
+
+.contact ul a {
+    color: var(--thrd-color);
+    text-decoration: none;
+    padding: 16px;
+}
+
+.contact ul li {
+
+}
+
+
+.contact ul li img {
+    width: 1.5em;
+    margin: .3em;
+}
