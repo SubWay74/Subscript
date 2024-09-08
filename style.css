@@ -41,6 +41,10 @@ ul {
     flex-direction: column;
 }
 
+.hero h1 {
+    padding: .5em;
+}
+
 .company-name {
     padding: .3em;
     padding-bottom: 0px;
